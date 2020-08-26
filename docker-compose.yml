@@ -9,4 +9,4 @@ services:
     env_file: 
       - "./config.env"
     volumes:
-      - ./data:/var/syncthing/Sync
+      - "${BACKUP_PATH}:/var/syncthing"
