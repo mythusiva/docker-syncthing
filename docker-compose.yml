@@ -7,6 +7,6 @@ services:
       - "8384:8384"
       - "22000:22000"
     env_file: 
-      - "./config.env"
+      - "./.env"
     volumes:
       - "${BACKUP_PATH}:/var/syncthing"
