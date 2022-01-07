@@ -10,3 +10,4 @@ services:
       - "./.env"
     volumes:
       - "${BACKUP_PATH}:/var/syncthing"
+    restart: unless-stopped
