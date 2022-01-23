@@ -3,7 +3,6 @@ version: '3'
 services:
   syncthing:
     image: syncthing/syncthing:latest
-    restart: unless-stopped
     ports:
       - "8384:8384"
       - "22000:22000"
